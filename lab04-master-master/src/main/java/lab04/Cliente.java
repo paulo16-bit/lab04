@@ -32,4 +32,6 @@ Cliente {
 
     @OneToMany(mappedBy = "cliente")
     private List<Imoveis> imoveis;
+
+
 }
